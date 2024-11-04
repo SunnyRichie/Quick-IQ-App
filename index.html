@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Quiz App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">QuickIQ</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Leaderboard</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <button id="start-btn">Start Quiz</button>
+
+  <div id="instruction-modal">
+    <div>
+      <h2>Welcome to the Quiz!</h2>
+      <p>
+        Instructions: <br />
+        1. Each question must be answered within 30 seconds. <br />
+        2. Select the correct answer to proceed to the next question. <br />
+        3. The quiz will end if the timer runs out.
+      </p>
+    </div>
+  </div>
+
+  <div class="app">
+    <h1>Test Your Knowledge</h1>
+    <div id="timer">Time Left: 30 seconds</div>
+    <div class="progress-bar">
+      <div id="progress"></div>
+    </div>
+    <div class="quiz">
+      <h2 id="question"></h2>
+      <div id="answer-buttons" class="btn-container"></div>
+      <button id="next-btn">Next</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 QuickIQ - All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>

@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #030615;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  color:#030615 ;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #030615;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  color: #020b3a;
+}
+
+.app {
+  background: #fff;
+  max-width: 600px;
+  margin: 50px auto;
+  width: 90%;
+  border-radius: 10px;
+  padding: 30px;
+  display: none;
+}
+
+.app h1 {
+  font-size: 25px;
+  color: #001e4d;
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.quiz {
+  padding: 20px 0;
+}
+
+.quiz h2 {
+  font-size: 18px;
+  color: #001e4d;
+  font-weight: 600;
+}
+
+.btn {
+  background: #fff;
+  font-weight: 500;
+  width: 100%;
+  color: #222;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+  background: #222;
+  color: #fff;
+}
+
+.btn:disabled {
+  cursor: no-drop;
+}
+
+#next-btn {
+  background: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+.correct {
+  background: #9aeabc;
+}
+
+.incorrect {
+  background: #ff9393;
+}
+
+#timer {
+  font-size: 16px;
+  color: #001e4d;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  background-color: #9aeabc;
+  height: 10px;
+  border-radius: 5px;
+}
+
+#progress {
+  background-color: #001e4d;
+  height: 10px;
+  width: 0;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #fff;
+  color: #030615;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+
+}
+
+footer p {
+  font-size: 14px;
+}
+
+#start-btn {
+  background: #fff;
+  color: #030615;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  display: block;
+  margin: 100px auto;
+}
+
+#instruction-modal {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#instruction-modal div {
+  background: #020d43;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+#instruction-modal h2 {
+  font-size: 22px;
+}
+
+#instruction-modal p {
+  font-size: 16px;
+  margin-top: 10px;
+}
