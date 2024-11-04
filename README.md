@@ -1,5 +1,5 @@
 QuickIQ Quiz App
-QuickIQ is a dynamic, time-limited quiz application designed to challenge your knowledge on a variety of topics. Answer questions within a countdown timer and aim for the highest score! With 10 minutes to complete 20 questions, QuickIQ is perfect for trivia enthusiasts and learners looking for a fun and competitive experience.
+is a dynamic, time-limited quiz application designed to challenge your knowledge on a variety of topics. Answer questions within a countdown timer and aim for the highest score! With 10 minutes to complete 20 questions, QuickIQ is perfect for trivia enthusiasts and learners looking for a fun and competitive experience.
 
 Features
 10-Minute Quiz Timer: You have 10 minutes to answer all questions in the quiz.
